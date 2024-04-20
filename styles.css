@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(14, 14, 14);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+}
+
+.section1 {
+  width: 14.5%;
+  height: 91vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 9px 3.5px 9px 9px;
+}
+
+.section2 {
+  width: 85.5%;
+  height: 91vh;
+  background-color: transparent;
+  padding: 9px 3.5px 9px 3.5px;
+}
+
+.box1 {
+  background-color: rgba(25, 25, 25, 0.849);
+  border-radius: 8px;
+  height: 18%;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  background-color: rgba(25, 25, 25, 0.849);
+  border-radius: 8px;
+  height: 82%;
+}
+
+.box3 {
+  background-color: rgba(25, 25, 25, 0.849);
+  border-radius: 8px;
+  height: 100%;
+}
